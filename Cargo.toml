@@ -1,0 +1,11 @@
+[package]
+name = "dict_check"
+version = "0.1.0"
+authors = ["Chad Baxter <cbaxter@mail.umw.edu>"]
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+
+[dependencies]
+rpassword = "2.0.0"
